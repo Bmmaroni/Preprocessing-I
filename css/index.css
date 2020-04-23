@@ -138,8 +138,8 @@ body {
 html header,
 body header {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
   width: 92%;
   margin: 0% 4%;
 }

@@ -238,12 +238,11 @@ body .bottom-section table {
 html footer,
 body footer {
   display: flex;
+  justify-content: center;
   margin: 0% 4%;
 }
 html footer p,
 body footer p {
-  display: flex;
-  justify-content: center;
   padding: 2% 0%;
   font-size: 3rem;
 }

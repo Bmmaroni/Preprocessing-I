@@ -163,7 +163,7 @@ body .top-section {
   justify-content: center;
   align-items: flex-start;
   background-color: lightgray;
-  padding: 1%;
+  padding: 4% 2%;
   margin: 0% 4%;
 }
 html .top-section img,
@@ -198,6 +198,7 @@ html .middle-section,
 body .middle-section {
   display: flex;
   justify-content: space-evenly;
+  margin: 0% 4%;
 }
 html .middle-section .middle-text,
 body .middle-section .middle-text {
@@ -207,14 +208,42 @@ body .middle-section .middle-text {
 }
 html .middle-section .middle-text h3,
 body .middle-section .middle-text h3 {
-  font-size: 1.6rem;
+  font-size: 6rem;
 }
 html .middle-section .middle-text p,
 body .middle-section .middle-text p {
-  font-size: 1.2rem;
+  font-size: 3rem;
 }
 html .middle-section .middle-list,
 body .middle-section .middle-list {
   width: 50%;
   padding: 1% 0%;
+}
+html .middle-section .middle-list h3,
+body .middle-section .middle-list h3 {
+  font-size: 6rem;
+}
+html .middle-section .middle-list ul li,
+body .middle-section .middle-list ul li {
+  font-size: 3rem;
+}
+html .bottom-section,
+body .bottom-section {
+  margin: 0% 4%;
+}
+html .bottom-section table,
+body .bottom-section table {
+  font-size: 3rem;
+}
+html footer,
+body footer {
+  display: flex;
+  margin: 0% 4%;
+}
+html footer p,
+body footer p {
+  display: flex;
+  justify-content: center;
+  padding: 2% 0%;
+  font-size: 3rem;
 }

@@ -88,7 +88,7 @@ html, body {
 		justify-content: center;
 		align-items: flex-start;
 		background-color: lightgray;
-		padding: @top-padding;
+		padding: 4% 2%;
 		margin: 0% 4%;
 
 		img {
@@ -123,6 +123,7 @@ html, body {
 	.middle-section {
 		display: flex;
 		justify-content: space-evenly;
+		margin: 0% 4%;
 
 		.middle-text {
 			width: 45%;
@@ -130,18 +131,49 @@ html, body {
 			margin-right: 5%;
 
 			h3 {
-				font-size: 1.6rem;
+				font-size: 6rem;
 			}
 
 			p {
-				font-size:	1.2rem;
+				font-size:	3rem;
 			}
 		}
 
 		.middle-list {
 			width: 50%;
 			padding: @middle-padding;
+
+			h3 {
+				font-size: 6rem;
+			}
+
+			ul {
+
+				li {
+					font-size: 3rem;
+				}
+			}
 		}
 
-	}	
+	}
+	
+	.bottom-section {
+		margin: 0% 4%;
+
+		table {
+			font-size: 3rem;
+		}
+	}
+
+	footer {
+		display: flex;
+		margin: 0% 4%;
+
+		p {
+			display: flex;
+			justify-content: center;
+			padding: 2% 0%;
+			font-size: 3rem;
+		}
+	}
 }		

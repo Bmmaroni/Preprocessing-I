@@ -151,10 +151,23 @@ body header nav {
   width: 40%;
   padding: 2% 0%;
 }
+@media ( max-width: 500px) {
+  html header nav,
+  body header nav {
+    flex-direction: column;
+  }
+}
 html header nav a,
 body header nav a {
   text-decoration: none;
   font-size: 4rem;
+}
+@media ( max-width: 500px) {
+  html header nav a,
+  body header nav a {
+    color: black;
+    font-size: 6rem;
+  }
 }
 html .top-section,
 body .top-section {
@@ -183,7 +196,8 @@ body .top-section h2 {
 }
 html .top-section p,
 body .top-section p {
-  font-size: 2.5rem;
+  color: darkgreen;
+  font-size: 3rem;
   padding: 1%;
   border-top: 1px solid slategray;
   width: 100%;
@@ -192,7 +206,7 @@ html .top-section button,
 body .top-section button {
   padding: 0.5%;
   margin: 1%;
-  font-size: 1.4rem;
+  font-size: 4rem;
 }
 html .middle-section,
 body .middle-section {
@@ -212,6 +226,7 @@ body .middle-section .middle-text h3 {
 }
 html .middle-section .middle-text p,
 body .middle-section .middle-text p {
+  color: darkgreen;
   font-size: 3rem;
 }
 html .middle-section .middle-list,
@@ -230,10 +245,13 @@ body .middle-section .middle-list ul li {
 html .bottom-section,
 body .bottom-section {
   margin: 0% 4%;
+  width: 92%;
 }
 html .bottom-section table,
 body .bottom-section table {
   font-size: 3rem;
+  vertical-align: center;
+  width: 100%;
 }
 html footer,
 body footer {
